@@ -11,7 +11,7 @@ def test_table(page:Page):
             column = i
             print(f"Colum value is {i}")
             break
-
+#add new details
     Cheese_row = page.locator("tr").filter(has_text="Tomato")
     #expect(row.locator("td").nth(column).filter(has_text="34"))
     #expect(Cheese_row.locator("td").nth(column)).to_have_text("34")
